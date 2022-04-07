@@ -1,3 +1,24 @@
+/***********Hasan *********/
+
+
+window.addEventListener("load", function(){
+    /*********page loader *******/
+    document.querySelector(".page-loader").classList.add("fade-out");
+    setTimeout(function(){
+        document.querySelector(".page-loader").style.display="none";
+    },600);
+    
+    
+   
+    
+});
+
+
+
+
+/***********Jahid   ***************/
+
+
 /*navbar*/
 const navToggler = document.querySelector(".nav-toggler");
 navToggler.addEventListener("click", toggleNav);
@@ -23,3 +44,5 @@ window.addEventListener("scroll", function(){
         this.document.querySelector(".header").classList.remove("sticky");
     }
 });
+
+
