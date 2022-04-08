@@ -346,25 +346,6 @@ body{
 
 }
 
-
-.btn{
-
-    display: inline-block;
-    padding: 10px 30px;
-    background-color: transparent;
-    border-radius: 30px;
-    text-transform: capitalize;
-    font-weight:  500;
-    font-size:  16px;
-    cursor: pointer;
-    font-family: inherit;
-    color: var(--main-color);
-    line-height: 1.5;
-    border: 2px solid white;
-    border-radius: 2px;
-  
-}
-
 /* menu section*/
 
 .menu-section{
