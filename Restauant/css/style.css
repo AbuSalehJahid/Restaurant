@@ -277,35 +277,48 @@ body{
     background-color: rgb(8, 5, 15);
 }
 
-
 .about-section{
+
+
     background-color: var(--dark-light);
     
 }
 
  .about-text h3{
+
+
         font-size: 30px;
         text-transform: capitalize;
         text-align: center;
         
     }
+
+
 .about-text p{
+
+
     margin: 0 0 15px;
     text-align: center;
 
 }
+
 .about-text .btn{
 
     margin: 15px 0 0;
+
 }
 
 
 .sec-padding{
+
     padding: 80px 0;
+
 }
 
-/*
-section title*/
+
+/*section title*/
+
+
 
 .section-title{
 
@@ -314,9 +327,7 @@ section title*/
    margin-bottom: 60px;
     width: 100%;
 
-    
 }
-
 
 .section-title h2{
 
@@ -325,43 +336,43 @@ section title*/
 }
 
 
-
-.section-title h2::before{
-
-    content: attr(data-title);
-    display: block;
+.section-title h1{
+    
     font-size: 24px;
     color: var(--main-color);
     font-family: var(--cursive-font);
     font-weight: 400px;
     text-transform: capitalize;
+
 }
+
+
 .btn{
- 
+
     display: inline-block;
     padding: 10px 30px;
-
     background-color: transparent;
     border-radius: 30px;
     text-transform: capitalize;
     font-weight:  500;
-    transition: all 0.3s ease;
     font-size:  16px;
     cursor: pointer;
     font-family: inherit;
     color: var(--main-color);
     line-height: 1.5;
-    user-select: none;
-    border: none;
-     
+    border: 2px solid white;
+    border-radius: 2px;
+  
 }
 
 /* menu section*/
 
 .menu-section{
+
     background-color: var(--dark);
 
 }
+
 
 .menu-section .section-title{
 
@@ -369,71 +380,36 @@ section title*/
 
 }
 
-.menu-tabs{
-    padding: 0 15px;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.menu-tab-item{
-    font-size: 18px;
-    font-family: inherit;
-    text-transform: capitalize;
-    border: none;
-    background-color: transparent;
-    font-weight: 500;
-    color: var(--main-color);
-    cursor: pointer;
-    margin: 0 10px 10px; 
-    transition: color 0.3s ease;
-    display: inline-block;
-}
-.menu-tab-item.active{
-
-    color: var(--main-color)
-}
-.menu-tab-content{display: none;}
-.menu-tab-content.active{display: flex;}
 
 .menu-item{
 
     width: 50%;
     padding: 20px 15px;
-    display: flex;
-    align-items: center;
+   
+     display: flex;
+ 
     justify-content:  space-between;
     position: relative;
 }
-.menu-item::after{
-    content: '';
-    position: absolute;
-    left: 15px;
-    right: 15px;
-    bottom: 0;
-    border-bottom: 2px dashed var(--dark-light);
-}
-.menu-item:nth-last-of-type(2)::after,
-.menu-item:nth-last-of-type(1)::after{
-    border:none;
-}
+
+
 .menu-item-title{
+
+
     display: flex;
     align-items: center;
     max-width: calc1(100%-80px);
 
 }
+    
 
 .menu-item-title h3{
-    font-size: 16px;
-    text-transform: capitalize;
-    transition: color 0.3s ease;
-}
 
-.menu-item:hover .menu-item-title h3{
-    color: var(--main-color);
+    font-size: 16px;
+    text-transform: capitalize; 
     
 }
+
 
 .menu-item-price{
 
@@ -442,10 +418,14 @@ section title*/
     color: var(--main-color);
 
 }
+
 .menu-item:hover .menu-item-price{
 
     color: var(--white);
+
 }
+
+/*************************Ratul Part End*****************************/
 
 
 .testimonials-sections{
@@ -543,13 +523,7 @@ color: var(--white)
 
 }
 
-
-
-
-
 /****************   Hasan          *************/
-
-
 
 
 
